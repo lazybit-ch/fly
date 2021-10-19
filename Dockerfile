@@ -1,7 +1,7 @@
 FROM alpine:3
 
 ARG FLY_VERSION
-ENV FLY_VERSION=${FLY_VERSION:-7.4.1}
+ENV FLY_VERSION=${FLY_VERSION:-7.5.0}
 
 RUN apk add --no-cache ca-certificates curl
 
